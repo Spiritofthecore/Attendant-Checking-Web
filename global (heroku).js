@@ -8,9 +8,9 @@ module.exports = {
         database: 'qldd'
     },
     db_postgres: {
-        host: 'ec2-23-23-216-40.compute-1.amazonaws.com',
-        user: 'cjgmzlabuhqtfi',
-        password: 'd622e3da2a297c8ace6627c86463b44033c60f0c501ab16a545521d0b23cacf3',
+        host: 'ec2-23-21-148-109.compute-1.amazonaws.com',
+        user: 'rhxrlwkusqnnwt',
+        password: '69880e44bc02c86cd182bff3df3af9e5ee5998f07aeffdb7a4aefab0ac5e414b',
         port:'5432',
         database: 'depna5rf8ertn0'
     },
@@ -21,7 +21,7 @@ module.exports = {
     //    port:'5432',
     //    database: 'qldd'
     //},
-    host: 'https://tpltesting.herokuapp.com',
+    host: 'https://nhom9-web-attendent-checker.herokuapp.com',
     email_setting: {
         host: 'smtp.office365.com', // Office 365 server
         port: 587, // secure SMTP
@@ -186,7 +186,7 @@ module.exports = {
             }
         });
     },
-    
+
     removeExtraFromTeacherName: function(teacher_name) {
         var name = teacher_name;
         //cắt học vị
